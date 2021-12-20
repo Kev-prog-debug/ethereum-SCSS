@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-family: "Outfit", sans-serif;
+  color: white;
+  background-color: #0d192b;
+}
+
+body a {
+  text-decoration: none;
+  color: white;
+}
+
+body a:hover {
+  color: #00fff7;
+}
+
+body .line-break {
+  display: none;
+}
+
+.container {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.attribution {
+  margin-bottom: 40px;
+}
+
+#card {
+  width: 40%;
+  max-width: 378px;
+  height: auto;
+  border-radius: 5px;
+  padding: 20px;
+  display: block;
+  margin: auto;
+  background-color: #14253d;
+}
+
+#card #image {
+  width: 90%;
+  height: 250px;
+  border: none;
+  border-radius: 6px;
+}
+
+#info {
+  text-align: start;
+  margin-top: 8px;
+}
+
+#info a {
+  text-decoration: none;
+  color: white;
+}
+
+#info a:hover {
+  color: #00fff7;
+}
+
+#info p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+#timer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 2px solid #2f415b;
+}
+
+#timer p .icon {
+  width: 15px;
+  height: 15px;
+  margin: 0 4px;
+}
+
+#creator {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#creator img {
+  width: 50px;
+  height: 50px;
+  border: solid 2px white;
+  border-radius: 50%;
+}
+
+#creator a {
+  text-decoration: none;
+  color: white;
+}
+
+#creator a:hover {
+  color: #00fff7;
+}
+
+@media screen and (min-width: 375px) {
+  .section {
+    height: 100vh;
+  }
+  #card {
+    width: 80%;
+  }
+  #creator img {
+    width: 45px;
+    height: 45px;
+  }
+  .attribution .line-break {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  #card {
+    width: 400px;
+    height: auto;
+  }
+  #info {
+    margin-top: 10px;
+    font-size: 28px;
+  }
+  #info p {
+    font-size: 26px;
+    font-weight: 200;
+  }
+  #timer {
+    font-size: 26px;
+  }
+  #timer p .icon {
+    width: 30px;
+    height: 30px;
+  }
+  #creator img {
+    width: 80px;
+    height: 80px;
+  }
+  #creator span {
+    font-size: 26px;
+  }
+  .attribution {
+    font-size: 26px;
+  }
+  .attribution .line-break {
+    display: none;
+  }
+}
+/*# sourceMappingURL=style.css.map */
